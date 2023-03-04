@@ -298,7 +298,7 @@
         $('.subscribe_form').ajaxChimp({
             language: 'es',
             callback: mailchimpCallback,
-            url: "//alexatheme.us14.list-manage.com/subscribe/post?u=48e55a88ece7641124b31a029&amp;id=361ec5b369" 
+            url: "//pinnacleconstructioncapital@gmail.com" 
         });
     }
 
@@ -333,7 +333,7 @@
 
             var mapOptions = {
                 zoom: 11,
-                center: new google.maps.LatLng(40.6700, -73.9400), 
+                center: new google.maps.LatLng(5.751329, 0.042513), 
                 scrollwheel: false,
                 navigationControl: false,
                 mapTypeControl: false,
@@ -347,7 +347,7 @@
             var map = new google.maps.Map(mapElement, mapOptions);
 
             var marker = new google.maps.Marker({
-                position: new google.maps.LatLng(40.6700, -73.9400),
+                position: new google.maps.LatLng(5.751329, 0.042513),
                 map: map,
                 title: 'Location!'
             });
